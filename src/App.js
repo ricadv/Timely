@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
 
 function App() {
+  const name =  'Rica'
+  const x = true
+
   return (
-    <div className="App">
-      <h1>Hello from React</h1>
+    <div className="Container">
+      <Header />
+      {/* <h2>{x ? 'Yes' : 'No' } {name}</h2> */}
     </div>
   );
 }
